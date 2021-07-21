@@ -435,7 +435,7 @@ export const polygonPools = [
     assets: ['ICE', 'DFYN'],
     callFee: 0.5,
     addLiquidityUrl:
-      'https://exchange.dfyn.network/#/add/0x4A81f8796e0c6Ad4877A51C86693B0dE8093F2ef/0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174',
+      'https://exchange.dfyn.network/#/add/0x4A81f8796e0c6Ad4877A51C86693B0dE8093F2ef/0xC168E40227E4ebD8C1caE80F7a55a4F0e6D66C97',
     buyTokenUrl:
       'https://exchange.dfyn.network/#/swap?outputCurrency=0x4A81f8796e0c6Ad4877A51C86693B0dE8093F2ef',
   },
