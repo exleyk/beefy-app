@@ -4200,7 +4200,7 @@ export const polygonPools = [
   },
   {
     id: 'swamp-pswamp',
-    logo: 'single-assets/pSWAMP.svg',
+    logo: 'single-assets/SWAMP.svg',
     name: 'pSWAMP',
     token: 'pSWAMP',
     tokenDescription: 'Swamp',
