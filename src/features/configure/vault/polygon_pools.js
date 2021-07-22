@@ -4199,8 +4199,8 @@ export const polygonPools = [
       'https://swap.cometh.io/#/swap?inputCurrency=0x2791bca1f2de4661ed88a30c99a7a9449aa84174&outputCurrency=0x9c78ee466d6cb57a4d01fd887d2b5dfb2d46288f',
   },
   {
-    id: 'swampy-pswamp',
-    logo: 'single-assets/SWAMP.svg',
+    id: 'swamp-pswamp',
+    logo: 'single-assets/pSWAMP.svg',
     name: 'pSWAMP',
     token: 'pSWAMP',
     tokenDescription: 'Swamp',
@@ -4223,5 +4223,32 @@ export const polygonPools = [
     depositFee: '0.1%',
     buyTokenUrl:
       'https://quickswap.exchange/#/swap?outputCurrency=0x5f1657896B38c4761dbc5484473c7A7C845910b6',
+  },
+  {
+    id: 'swamp-wmatic-pswamp',
+    logo: 'polygon/WMATIC-pSWAMP.png',
+    name: 'WMATIC-pSWAMP QLP',
+    token: 'WMATIC-pSWAMP QLP',
+    tokenDescription: 'Swamp',
+    tokenAddress: '0x1a477272f6030eab135cb3ba40646f3eb26b382a',
+    tokenDecimals: 18,
+    tokenDescriptionUrl: '#',
+    earnedToken: 'mooSwampWMATIC-pSWAMP',
+    earnedTokenAddress: '0xc6ba9e2e761ab1b96c774aa9067103aa406844ca',
+    earnContractAddress: '0xc6ba9e2e761ab1b96c774aa9067103aa406844ca',
+    pricePerFullShare: 1,
+    tvl: 0,
+    oracle: 'lps',
+    oracleId: 'swamp-wmatic-pswamp',
+    oraclePrice: 0,
+    depositsPaused: false,
+    status: 'active',
+    platform: 'Swamp',
+    assets: ['WMATIC', 'pSWAMP'],
+    callFee: 0.5,
+    addLiquidityUrl:
+      'https://quickswap.exchange/#/add/0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270/0x5f1657896B38c4761dbc5484473c7A7C845910b6',
+    buyTokenUrl:
+      'https://quickswap.exchange/#/swap?outputCurrency=0x5f1657896b38c4761dbc5484473c7a7c845910b6',
   },
 ];
