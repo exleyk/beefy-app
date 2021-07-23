@@ -4200,7 +4200,6 @@ export const polygonPools = [
   },
   {
     id: 'swamp-pswamp',
-    logo: 'single-assets/SWAMP.svg',
     name: 'pSWAMP',
     token: 'pSWAMP',
     tokenDescription: 'Swamp',
@@ -4218,7 +4217,7 @@ export const polygonPools = [
     depositsPaused: false,
     status: 'active',
     platform: 'Swamp',
-    assets: ['pSWAMP'],
+    assets: ['SWAMP'],
     callFee: 0.5,
     depositFee: '0.1%',
     buyTokenUrl:
@@ -4226,7 +4225,6 @@ export const polygonPools = [
   },
   {
     id: 'swamp-pswamp-matic',
-    logo: 'polygon/pSWAMP-MATIC.png',
     name: 'pSWAMP-MATIC QLP',
     token: 'pSWAMP-MATIC QLP',
     tokenDescription: 'Swamp',
@@ -4244,8 +4242,9 @@ export const polygonPools = [
     depositsPaused: false,
     status: 'active',
     platform: 'Swamp',
-    assets: ['pSWAMP','WMATIC'],
+    assets: ['SWAMP','MATIC'],
     callFee: 0.5,
+    depositFee: '0.1%',
     addLiquidityUrl:
       'https://quickswap.exchange/#/add/0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270/0x5f1657896B38c4761dbc5484473c7A7C845910b6',
     buyTokenUrl:
